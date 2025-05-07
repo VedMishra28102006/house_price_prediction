@@ -1,0 +1,27 @@
+{% if context["prediction"] %}
+<h3>Prediction: {{ context["prediction"] }}</h1>
+{% endif %}
+<form method="POST">
+  <label>Bedrooms:</label>
+  <input type="number" name="bedrooms">
+  <br>
+  <label>Bathrooms:</label>
+  <input type="number" name="bathrooms">
+  <br>
+  <label>Sqft living:</label>
+  <input type="number" name="sqft_living">
+  <br>
+  <label>Sqft lot:</label>
+  <input type="number" name="sqft_lot">
+  <br>
+  <label>Floors:</label>
+  <input type="number" name="floors">
+  <br>
+  <label>Waterfront:</label>
+  <input type="number" name="waterfront">
+  <br>
+  <label>View:</label>
+  <input type="number" name="view">
+  <br>
+  <button type="submit">Submit</button>
+</form>
