@@ -3,25 +3,25 @@
 {% endif %}
 <form method="POST">
   <label>Bedrooms:</label>
-  <input type="number" name="bedrooms">
+  <input required type="number" name="bedrooms">
   <br>
   <label>Bathrooms:</label>
-  <input type="number" name="bathrooms">
+  <input required type="number" name="bathrooms">
   <br>
   <label>Sqft living:</label>
-  <input type="number" name="sqft_living">
+  <input required type="number" step="any" name="sqft_living">
   <br>
   <label>Sqft lot:</label>
-  <input type="number" name="sqft_lot">
+  <input required type="number" step="any" name="sqft_lot">
   <br>
   <label>Floors:</label>
-  <input type="number" name="floors">
+  <input required type="number" name="floors">
   <br>
   <label>Waterfront:</label>
-  <input type="number" name="waterfront">
+  <input required type="number" name="waterfront">
   <br>
   <label>View:</label>
-  <input type="number" name="view">
+  <input required type="number" name="view">
   <br>
   <button type="submit">Submit</button>
 </form>
