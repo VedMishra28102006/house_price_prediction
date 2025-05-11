@@ -12,7 +12,7 @@ Libraries required to be installed for this project: flask, pandas, sklearn
 
 4) Courtesy
 
-The Housing.csv dataset for training used in this app is taken from kaggle whose link is given below:
+The Housing.csv dataset for training used in this project is taken from kaggle whose link is given below:
 
 https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset
 
