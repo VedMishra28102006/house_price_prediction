@@ -4,7 +4,7 @@ A house price prediction app which takes some features as user input and predict
 
 2) How to run
 
-Install the required libraries, run python3 main.py inside the root folder and open the http://localhost:5000/ url.
+Install the Housing.csv dataset and place it inside the root folder, install the required libraries, then run python3 main.py inside the root folder and open the http://localhost:5000/ url.
 
 3) Dependencies
 
