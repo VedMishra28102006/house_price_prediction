@@ -15,5 +15,3 @@ Packages required to be installed for this project: flask, pandas, sklearn
 The Housing.csv dataset for training used in this project is taken from kaggle whose link is given below:
 
 https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset
-
-Download and place it inside the project's root folder.
